@@ -44,3 +44,38 @@ body{
     background-color: #FD8D3A; 
     color: white;
 }
+.search-bar {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .search-bar .dropdown-toggle {
+    color: #333;
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 10px;
+  }
+
+  .search-bar .dropdown-menu {
+    border-radius: 6px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .search-bar .btn {
+    background-color: #FF7D44;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 10px 20px;
+    border: none;
+  }
+
+  .search-bar .btn:hover {
+    background-color: #ff6b33;
+  }
