@@ -1,0 +1,46 @@
+/* Global Section */
+body{
+    font-family: 'Volkhov';
+}
+/* Navbar Section*/
+.login{  
+    color:#FD8D3A;
+    font-family: 'poppins'
+}
+.singup{
+    padding: 5px ,25px;
+    color: white;
+    background-color:#FD8D3A;
+    border: none;
+}
+.navbar-nav,.singup{
+    font-family: 'poppins';
+}
+
+/*Hero Section*/
+.hero {
+    background-color: #FEFCFB;
+}
+.highlight{
+    color: #FD8D3A;
+}
+.heroparagraph{
+    font-family: 'poppins';
+    font-size: 16px;
+}
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.heroimage{
+    margin-left: 50px;
+}
+.hero-button{
+    font-weight: 500;
+    font-family: 'poppins';
+    border: 1px solid #FD8D3A;
+}
+.hero-button:hover {
+    background-color: #FD8D3A; 
+    color: white;
+}
