@@ -44,38 +44,168 @@ body{
     background-color: #FD8D3A; 
     color: white;
 }
+
+/*Searchbar Section*/
+.search{
+    background-color: #FEFCFB;
+    font-family: 'poppins';
+} 
 .search-bar {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    display: flex;
-    align-items: center;
-    padding: 10px 20px;
-  }
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    display: flex; 
+    align-items: center; 
+    padding: 10px 20px; 
+    margin-bottom:30px ;
+} 
+.search-bar .dropdown-toggle { 
+    color: #333; 
+    background: none; 
+    border: none; 
+    font-size: 16px; 
+    font-weight: 500; 
+    padding: 5px 10px; 
+} 
+.search-bar .dropdown-menu { 
+    border-radius: 6px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+} 
+.search-bar .btn { 
+    background-color:  #FD8D3A; 
+    color: #fff; 
+    font-weight: 500; 
+    border-radius: 6px; 
+    padding: 10px 20px; 
+    border: none; 
+    margin-left: auto;
+} 
+.search-bar .btn:hover { 
+    background-color: #FD8D3A; 
+} 
+/* Searchbar Responsive */ 
 
-  .search-bar .dropdown-toggle {
+@media (max-width: 767.98px){
+.search-bar{ 
+    flex-direction: column; 
+    align-items:stretch; 
+}
+.search-bar .dropdown, .search-bar .btn {
+    width: 100%; 
+    margin-bottom: 10px; 
+}
+.search-bar .btn { 
+    margin-left: 0; 
+}
+}
+
+/* You need Section*/
+.thingscolor{
+    color: #FD8D3A;
+}
+.Things{
+    font-family: 'Volkhov'!important;
+}
+.box ,.image-section,.Things {
+    font-family: 'poppins';
+    background-color:#F7F8FC; 
+}
+.you-need-paragraph{
+    font-family: 'poppins';
+}
+.section-title {
+    font-size: 30px;
+    font-weight: bold;
     color: #333;
-    background: none;
-    border: none;
-    font-size: 16px;
-    font-weight: 500;
-    padding: 5px 10px;
-  }
-
-  .search-bar .dropdown-menu {
-    border-radius: 6px;
+    margin-bottom: 0.5rem;
+}
+.section-subtitle {
+    color: #777;
+    font-size: 15px;
+}
+.box-card {
+    background-color: #FFFFFF;
+    border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  }
-
-  .search-bar .btn {
-    background-color: #FF7D44;
-    color: #fff;
-    font-weight: 500;
-    border-radius: 6px;
-    padding: 10px 20px;
+    transition: transform 0.2s;
+    text-align: left; 
+}
+.icon {
+    width: 60px; 
+    height: 60px;
+}
+.expertise-title {
+    font-size: 0.95rem;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 0.8rem;
+}
+.expertise-text {
+    color: #666666;
+    font-size: 0.80rem;
+}
+/*Exclusive deals & discounts*/
+.exclusivedeals{
+    background-color:  #FEFCFB;
+}
+.content{
+    font-family: 'poppins';
+}
+/*
+.location{
+    height: 20px;
+    width: 20px;
+}
+.dollarbutton{
+    text-align: center;
+    /*height: 30px;
+    width:70px;
+    padding-top: 4px;
+    font-size: 16px;
+    color: #FD8D3A;
+    font-weight: 600;
+    border-radius: 7px;
+}
+background-color: #FFE7DB;*/
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.content{
+    font-family: 'poppins';
+    padding: 8px;
+}
+.card .content h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+.card .pricing button {
+    background-color: #FFE7DB ;
+    color:#FD8D3A ;
     border: none;
-  }
-
-  .search-bar .btn:hover {
-    background-color: #ff6b33;
-  }
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+.card .pricing del {
+    font-size: 14px;
+    color: #aaa;
+}
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #FD8D3A;
+    --bs-btn-border-color: #FD8D3A;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #FD8D3A;
+    --bs-btn-hover-border-color: #FD8D3A;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #FD8D3A;
+    --bs-btn-active-border-color: #FD8D3A;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #FD8D3A;
+    --bs-btn-disabled-border-color: #FD8D3A;
+}

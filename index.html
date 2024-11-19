@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Volkhov' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
     <!--Navbar-->
@@ -51,59 +52,231 @@
             <img src="./Assets/Heroimg.svg" alt="Profile Image" class="img-fluid heroimage">
         </div>
     </div>
-     <div class="centered-container">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-8">
-          <div class="search-bar">
-            <!-- Location Dropdown -->
-            <div class="dropdown">
-              <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Location
-                <img src="https://cdn-icons-png.flaticon.com/512/2985/2985150.png" alt="Dropdown Icon">
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">New York</a></li>
-                <li><a class="dropdown-item" href="#">Los Angeles</a></li>
-                <li><a class="dropdown-item" href="#">Chicago</a></li>
-              </ul>
-            </div>
+</section>
 
-            <!-- Date Dropdown -->
-            <div class="dropdown">
-              <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Date
-                <img src="https://cdn-icons-png.flaticon.com/512/2985/2985150.png" alt="Dropdown Icon">
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Today</a></li>
-                <li><a class="dropdown-item" href="#">Tomorrow</a></li>
-                <li><a class="dropdown-item" href="#">Next Week</a></li>
-              </ul>
-            </div>
+<!-- search bar -->
+<section class="search">
+    <div class="container"> 
+      <div class="row justify-content-center"> 
+        <div class="col-8"> 
+          <div class="search-bar"> 
+            <!-- Location Dropdown --> 
+             <div class="dropdown me-3"> 
+              <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> Location </button> 
+              <ul class="dropdown-menu"> 
+                <li><a class="dropdown-item" href="#">Dhaka</a></li> 
+                <li><a class="dropdown-item" href="#">Cumilla</a></li> 
+                <li><a class="dropdown-item" href="#">Sylhet</a></li> 
+                <li><a class="dropdown-item" href="#">Rajshahi</a></li> 
+              </ul> 
+            </div> 
 
-            <!-- Guest Dropdown -->
-            <div class="dropdown">
-              <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Guest
-                <img src="https://cdn-icons-png.flaticon.com/512/2985/2985150.png" alt="Dropdown Icon">
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">1 Guest</a></li>
-                <li><a class="dropdown-item" href="#">2 Guests</a></li>
-                <li><a class="dropdown-item" href="#">3+ Guests</a></li>
-              </ul>
+            <!-- Date Dropdown --> 
+             <div class="dropdown me-3">
+               <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> Date </button> 
+               <ul class="dropdown-menu"> 
+                <li><a class="dropdown-item" href="#">Today</a></li> 
+                <li><a class="dropdown-item" href="#">Tomorrow</a></li> 
+                <li><a class="dropdown-item" href="#">Next Week</a></li> 
+              </ul> 
             </div>
-
-            <!-- Button -->
-            <button class="btn ms-auto">Explore Now</button>
+            
+             <!-- Guest Dropdown --> 
+              <div class="dropdown me-3"> 
+                <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> Guest </button> 
+                <ul class="dropdown-menu"> 
+                  <li><a class="dropdown-item" href="#">1 person</a></li> 
+                  <li><a class="dropdown-item" href="#">2 person</a></li> 
+                  <li><a class="dropdown-item" href="#">3 person</a></li> 
+                  <li><a class="dropdown-item" href="#">4+ person</a></li> 
+                </ul> 
+              </div>
+               <!-- Button --> 
+                <button class="btn">Explore Now</button> 
+              </div> 
+            </div> 
           </div>
-        </div>
+</section>
+
+<!--You need Section-->
+<section class="Things pt-5">
+  <div class="container">
+      <div class="row">
+          <div class="col-12">
+              <h1 class=" account-text text-center ">
+                Things you need <span class="thingscolor">to do</span>
+              </h1>
+              <p class="you-need-paragraph text-center">We ensure that you’ll embark on a perfectly planned, </br>safe vacation at a price you can afford. </p>
+          </div>
       </div>
-    </div>
   </div>
 </section>
 
-    <script src="./bootstrap.bundle.js"></script>
+<section class="box py-1">
+  <div class="container ">
+      <div class="row mt-4">
+          <div class="col-md-4 col-sm-6 mb-4">
+              <div class="box-card p-4">
+                  <div class="iconbox"> 
+                      <img src="./Assets/Sing in.svg" alt="Sign Up" class="icon">
+                  </div> </br>
+                  <h5 class="expertise-title">Sign Up</h5>
+                  <p class="expertise-text">Completes all the work associated with planning and processing</p>
+              </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-4">
+              <div class="box-card p-4">
+                  <div class="iconbox"> 
+                      <img src="./Assets/Money.svg" alt="Worth of Money" class="icon">
+                  </div> </br>
+                  <h5 class="expertise-title">Worth of Money</h5>
+                  <p class="expertise-text">After successful access then book from exclusive deals & pricing</p>
+              </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-4">
+              <div class="box-card p-4">
+                  <div class="iconbox"> 
+                      <img src="./Assets/Travel.svg" alt="Exciting Travel" class="icon">
+                  </div> </br>
+                  <h5 class="expertise-title">Exciting Travel</h5>
+                  <p class="expertise-text">Start and explore a wide range of exciting travel experience.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!--Exclusive deals & discounts-->
+<section class="exclusivedeals pt-5">
+  <div class="container">
+      <div class="row">
+          <div class="col-12">
+              <h1 class=" account-text text-center ">
+                Exclusive <span class="thingscolor">deals & discounts</span>
+              </h1>
+              <p class="you-need-paragraph text-center">Discover our fantastic early booking discounts</br> & start planning your journey.</p>
+          </div>
+      </div>
+  </div>
+</section>
+
+<div class="container">
+        <div class="row g-3">
+            <!-- Frist Card Start -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3"> 
+                <div class="card h-100">
+                    <div class="pic">
+                        <img class="w-100" src="./Assets/Image.png" alt="Card Image">
+                    </div>
+                    <div class="content pt-3">
+                        <div class="line1 d-flex justify-content-between align-items-center">
+                            <h4 class="mb-0">Madrid</h4>
+                            <div class="d-flex align-items-center">
+                                <img src="./Assets/star 1.svg" alt="Star" class="pb-1">
+                                <p class="ms-2 mb-0">4.8</p>
+                            </div>
+                        </div>
+                        <div class="line2 d-flex justify-content-between align-items-center mt-2">
+                            <div class="d-flex align-items-center">
+                                <img src="./Assets/location.svg" alt="Location" class="location">
+                                <p class="place ms-2 mb-0">Spain</p>
+                            </div>
+                            <div class="pricing d-flex align-items-center">
+                                <del class="text-muted me-2">$950</del>
+                                <button class="btn btn-sm btn-primary">$850</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+              <!-- Second Card Start -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3"> 
+                <div class="card h-100">
+                    <div class="pic">
+                        <img class="w-100" src="./Assets/Image.png" alt="Card Image">
+                    </div>
+                    <div class="content pt-3">
+                        <div class="line1 d-flex justify-content-between align-items-center">
+                            <h4 class="mb-0">Madrid</h4>
+                            <div class="d-flex align-items-center">
+                                <img src="./Assets/star 1.svg" alt="Star" class="pb-1">
+                                <p class="ms-2 mb-0">4.8</p>
+                            </div>
+                        </div>
+                        <div class="line2 d-flex justify-content-between align-items-center mt-2">
+                            <div class="d-flex align-items-center">
+                                <img src="./Assets/location.svg" alt="Location" class="location">
+                                <p class="place ms-2 mb-0">Spain</p>
+                            </div>
+                            <div class="pricing d-flex align-items-center">
+                                <del class="text-muted me-2">$950</del>
+                                <button class="btn btn-sm btn-primary">$850</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Third Card Start -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3"> 
+                <div class="card h-100">
+                    <div class="pic">
+                        <img class="w-100" src="./Assets/Image.png" alt="Card Image">
+                    </div>
+                    <div class="content pt-3">
+                        <div class="line1 d-flex justify-content-between align-items-center">
+                            <h4 class="mb-0">Madrid</h4>
+                            <div class="d-flex align-items-center">
+                                <img src="./Assets/star 1.svg" alt="Star" class="pb-1">
+                                <p class="ms-2 mb-0">4.8</p>
+                            </div>
+                        </div>
+                        <div class="line2 d-flex justify-content-between align-items-center mt-2">
+                            <div class="d-flex align-items-center">
+                                <img src="./Assets/location.svg" alt="Location" class="location">
+                                <p class="place ms-2 mb-0">Spain</p>
+                            </div>
+                            <div class="pricing d-flex align-items-center">
+                                <del class="text-muted me-2">$950</del>
+                                <button class="btn btn-sm btn-primary">$850</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Fourth Card Start -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3"> 
+                <div class="card h-100">
+                    <div class="pic">
+                        <img class="w-100" src="./Assets/Image.png" alt="Card Image">
+                    </div>
+                    <div class="content pt-3">
+                        <div class="line1 d-flex justify-content-between align-items-center">
+                            <h4 class="mb-0">Madrid</h4>
+                            <div class="d-flex align-items-center">
+                                <img src="./Assets/star 1.svg" alt="Star" class="pb-1">
+                                <p class="ms-2 mb-0">4.8</p>
+                            </div>
+                        </div>
+                        <div class="line2 d-flex justify-content-between align-items-center mt-2">
+                            <div class="d-flex align-items-center">
+                                <img src="./Assets/location.svg" alt="Location" class="location">
+                                <p class="place ms-2 mb-0">Spain</p>
+                            </div>
+                            <div class="pricing d-flex align-items-center">
+                                <del class="text-muted me-2">$950</del>
+                                <button class="btn btn-sm btn-primary">$850</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div> 
+    </div>
+</div>
+    
+</br>
+<script src="./bootstrap.bundle.js"></script>
 </body>
 </html>
