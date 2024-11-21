@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabook</title>
-    <link rel="icon" type="image/x-icon" href="./Assets/Favicon.svg">
+    <link rel="icon" type="image/x-icon" href="./Assets/Logo and favicon/Favicon.svg">
     <link rel="stylesheet" href="./bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Volkhov' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=poppins' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
 <!--Navbar-->
+
 <nav class="navbar navbar-expand-lg navbar-white">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="./Assets/Logo.svg" alt="Logo" >
+                <img src="./Assets/Logo and favicon/Logo.svg" alt="Logo" >
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -32,13 +32,43 @@
                     <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
                 </ul>
                 <div class="ms-auto">
-                    <a class="btn login" href="#">Login</a>
+                    <a class="btn login" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</a>       
                     <a class="btn btn-primary singup" href="#">Sign up</a>
+
     
                 </div>
             </div>
         </div>
 </nav>
+
+<!--LOG IN MODAL-->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Welcome Back</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">Email</label>
+              <input type="email" class="form-control " placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+              <label for="message-text" class="col-form-label">Password</label>
+              <input type="password" class="form-control " placeholder="Enter password">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn singup">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <!-- Hero Section-->
 <section class="hero text-center text-md-start py-5">
@@ -50,7 +80,7 @@
             <a href="#" class="btn btn-outline hero-button">Discover Now</a>
         </div>
         <div class="col-md-6">
-            <img src="./Assets/Heroimg.svg" alt="Profile Image" class="img-fluid heroimage">
+            <img src="./Assets/Hero Section/Heroimg.svg" alt="Profile Image" class="img-fluid heroimage">
         </div>
     </div>
 </section>
@@ -118,9 +148,9 @@
       <div class="row mt-4">
           <div class="col-md-4 col-sm-6 mb-4">
             <!--feature 1-->
-              <div class="box-card p-4">
+              <div class="box-card p-4 ">
                   <div class="iconbox"> 
-                      <img src="./Assets/Sing in.svg" alt="Sign Up" class="icon">
+                      <img src="./Assets/You Need icon/Sing in.svg" alt="Sign Up" class="icon">
                   </div> </br>
                   <h5 class="expertise-title">Sign Up</h5>
                   <p class="expertise-text">Completes all the work associated with planning and processing</p>
@@ -130,7 +160,7 @@
           <div class="col-md-4 col-sm-6 mb-4">
               <div class="box-card p-4">
                   <div class="iconbox"> 
-                      <img src="./Assets/Money.svg" alt="Worth of Money" class="icon">
+                      <img src="./Assets/You Need icon/Money.svg" alt="Worth of Money" class="icon">
                   </div> </br>
                   <h5 class="expertise-title">Worth of Money</h5>
                   <p class="expertise-text">After successful access then book from exclusive deals & pricing</p>
@@ -140,7 +170,7 @@
           <div class="col-md-4 col-sm-6 mb-4">
               <div class="box-card p-4">
                   <div class="iconbox"> 
-                      <img src="./Assets/Travel.svg" alt="Exciting Travel" class="icon">
+                      <img src="./Assets/You Need icon/Travel.svg" alt="Exciting Travel" class="icon">
                   </div> </br>
                   <h5 class="expertise-title">Exciting Travel</h5>
                   <p class="expertise-text">Start and explore a wide range of exciting travel experience.</p>
@@ -172,19 +202,19 @@
             <div class="col-12 col-sm-6 col-md-4 col-lg-3"> 
                 <div class="card h-100">
                     <div class="pic">
-                        <img class="w-100" src="./Assets/Image.png" alt="Card Image">
+                        <img class="w-100" src="./Assets/Exclusive deals Image/Image.png" alt="Card Image">
                     </div>
                     <div class="content pt-3">
                         <div class="line1 d-flex justify-content-between align-items-center">
                             <h4 class="mb-0">Madrid</h4>
                             <div class="d-flex align-items-center">
-                                <img src="./Assets/star 1.svg" alt="Star" class="pb-1">
+                                <img src="./Assets/Extra Icon/star 1.svg" alt="Star" class="pb-1">
                                 <p class="ms-2 mb-0">4.8</p>
                             </div>
                         </div>
                         <div class="line2 d-flex justify-content-between align-items-center mt-2">
                             <div class="d-flex align-items-center">
-                                <img src="./Assets/location.svg" alt="Location" class="location">
+                                <img src="./Assets/Extra Icon/location.svg" alt="Location" class="location">
                                 <p class="place ms-2 mb-0">Spain</p>
                             </div>
                             <div class="pricing d-flex align-items-center">
@@ -200,19 +230,19 @@
             <div class="col-12 col-sm-6 col-md-4 col-lg-3"> 
                 <div class="card h-100">
                     <div class="pic">
-                        <img class="w-100" src="./Assets/Image (1).png" alt="Card Image">
+                        <img class="w-100" src="./Assets/Exclusive deals Image/Image (1).png" alt="Card Image">
                     </div>
                     <div class="content pt-3">
                         <div class="line1 d-flex justify-content-between align-items-center">
                             <h4 class="mb-0">Firenze</h4>
                             <div class="d-flex align-items-center">
-                                <img src="./Assets/star 1.svg" alt="Star" class="pb-1">
+                                <img src="./Assets/Extra Icon/star 1.svg" alt="Star" class="pb-1">
                                 <p class="ms-2 mb-0">4.5</p>
                             </div>
                         </div>
                         <div class="line2 d-flex justify-content-between align-items-center mt-2">
                             <div class="d-flex align-items-center">
-                                <img src="./Assets/location.svg" alt="Location" class="location">
+                                <img src="./Assets/Extra Icon/location.svg" alt="Location" class="location">
                                 <p class="place ms-2 mb-0">Italy</p>
                             </div>
                             <div class="pricing d-flex align-items-center">
@@ -228,19 +258,19 @@
             <div class="col-12 col-sm-6 col-md-4 col-lg-3"> 
                 <div class="card h-100">
                     <div class="pic">
-                        <img class="w-100" src="./Assets/Image (2).png" alt="Card Image">
+                        <img class="w-100" src="./Assets/Exclusive deals Image/Image (2).png" alt="Card Image">
                     </div>
                     <div class="content pt-3">
                         <div class="line1 d-flex justify-content-between align-items-center">
                             <h4 class="mb-0">Paris</h4>
                             <div class="d-flex align-items-center">
-                                <img src="./Assets/star 1.svg" alt="Star" class="pb-1">
+                                <img src="./Assets/Extra Icon/star 1.svg" alt="Star" class="pb-1">
                                 <p class="ms-2 mb-0">4.4</p>
                             </div>
                         </div>
                         <div class="line2 d-flex justify-content-between align-items-center mt-2">
                             <div class="d-flex align-items-center">
-                                <img src="./Assets/location.svg" alt="Location" class="location">
+                                <img src="./Assets/Extra Icon/location.svg" alt="Location" class="location">
                                 <p class="place ms-2 mb-0">France</p>
                             </div>
                             <div class="pricing d-flex align-items-center">
@@ -256,19 +286,19 @@
             <div class="col-12 col-sm-6 col-md-4 col-lg-3"> 
                 <div class="card h-100">
                     <div class="pic">
-                        <img class="w-100" src="./Assets/Image (3).png" alt="Card Image">
+                        <img class="w-100" src="./Assets/Exclusive deals Image/Image (3).png" alt="Card Image">
                     </div>
                     <div class="content pt-3">
                         <div class="line1 d-flex justify-content-between align-items-center">
                             <h4 class="mb-0">London</h4>
                             <div class="d-flex align-items-center">
-                                <img src="./Assets/star 1.svg" alt="Star" class="pb-1">
+                                <img src="./Assets/Extra Icon/star 1.svg" alt="Star" class="pb-1">
                                 <p class="ms-2 mb-0">4.7</p>
                             </div>
                         </div>
                         <div class="line2 d-flex justify-content-between align-items-center mt-2">
                             <div class="d-flex align-items-center">
-                                <img src="./Assets/location.svg" alt="Location" class="location">
+                                <img src="./Assets/Extra Icon/location.svg" alt="Location" class="location">
                                 <p class="place ms-2 mb-0">UK</p>
                             </div>
                             <div class="pricing d-flex align-items-center">
@@ -304,11 +334,14 @@
       <div class="carousel-item active" data-bs-interval="10000">
         <div class="cardcontainer container">
             <div class="row g-3">
+
+                <!--1-->
+                
                 <!-- Frist Card Start -->
                 <div class="col-12 col-sm-6 col-md-4 col-lg-4"> 
                     <div class="card ">
                         <div class="pic">
-                            <img class="w-100" src="./Assets/Itay.svg" alt="Card Image">
+                            <img class="w-100" src="./Assets/Carasouls/Itay.svg" alt="Card Image">
                         </div>
                         <div class="content pt-3">
                             <div class="line1 d-flex justify-content-between align-items-center">
@@ -319,11 +352,11 @@
                             </div>
                             <div class="line2 d-flex justify-content-between align-items-center mt-2">
                                 <div class="d-flex align-items-center">
-                                    <img src="./Assets/Navigation.svg" alt="Location" class="location">
+                                    <img src="./Assets/Extra Icon/Navigation.svg" alt="Location" class="location">
                                     <p class="place ms-2 mb-0">10 Days Trip</p>
                                 </div>
                                 <div class="pricing d-flex align-items-center">
-                                    <img src="./Assets/star 1.svg" alt="Star" class="pb-1">
+                                    <img src="./Assets/Extra Icon/star 1.svg" alt="Star" class="pb-1">
                                     <p class="ms-2 mb-0">4.8</p>
                                 </div>
                             </div>
@@ -335,7 +368,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-4"> 
                     <div class="card ">
                         <div class="pic">
-                            <img class="w-100" src="./Assets/London.svg" alt="Card Image">
+                            <img class="w-100" src="./Assets/Carasouls/London.svg" alt="Card Image">
                         </div>
                         <div class="content pt-3">
                             <div class="line1 d-flex justify-content-between align-items-center">
@@ -346,11 +379,11 @@
                             </div>
                             <div class="line2 d-flex justify-content-between align-items-center mt-2">
                                 <div class="d-flex align-items-center">
-                                    <img src="./Assets/Navigation.svg" alt="Location" class="location">
+                                    <img src="./Assets/Extra Icon/Navigation.svg" alt="Location" class="location">
                                     <p class="place ms-2 mb-0">07 Days Trip</p>
                                 </div>
                                 <div class="pricing d-flex align-items-center">
-                                    <img src="./Assets/star 1.svg" alt="Star" class="pb-1">
+                                    <img src="./Assets/Extra Icon/star 1.svg" alt="Star" class="pb-1">
                                     <p class="ms-2 mb-0">4.7</p>
                                 </div>
                             </div>
@@ -362,7 +395,7 @@
                  <div class="col-12 col-sm-6 col-md-4 col-lg-4"> 
                     <div class="card ">
                         <div class="pic">
-                            <img class="w-100" src="./Assets/Japan.svg" alt="Card Image">
+                            <img class="w-100" src="./Assets/Carasouls/Japan.svg" alt="Card Image">
                         </div>
                         <div class="content pt-3">
                             <div class="line1 d-flex justify-content-between align-items-center">
@@ -373,11 +406,11 @@
                             </div>
                             <div class="line2 d-flex justify-content-between align-items-center mt-2">
                                 <div class="d-flex align-items-center">
-                                    <img src="./Assets/Navigation.svg" alt="Location" class="location">
+                                    <img src="./Assets/Extra Icon/Navigation.svg" alt="Location" class="location">
                                     <p class="place ms-2 mb-0">08 Days Trip</p>
                                 </div>
                                 <div class="pricing d-flex align-items-center">
-                                    <img src="./Assets/star 1.svg" alt="Star" class="pb-1">
+                                    <img src="./Assets/Extra Icon/star 1.svg" alt="Star" class="pb-1">
                                     <p class="ms-2 mb-0">5.0</p>
                                 </div>
                             </div>
@@ -388,6 +421,8 @@
         </div> 
       </div>
 
+      <!--2-->
+
       <div class="carousel-item" data-bs-interval="2000">
         <div class="cardcontainer container">
             <div class="row g-3">
@@ -395,7 +430,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-4"> 
                     <div class="card ">
                         <div class="pic">
-                            <img class="w-100" src="./Assets/Maldives.svg" alt="Card Image">
+                            <img class="w-100" src="./Assets/Carasouls/Maldives.svg" alt="Card Image">
                         </div>
                         <div class="content pt-3">
                             <div class="line1 d-flex justify-content-between align-items-center">
@@ -406,11 +441,11 @@
                             </div>
                             <div class="line2 d-flex justify-content-between align-items-center mt-2">
                                 <div class="d-flex align-items-center">
-                                    <img src="./Assets/Navigation.svg" alt="Location" class="location">
+                                    <img src="./Assets/Extra Icon/Navigation.svg" alt="Location" class="location">
                                     <p class="place ms-2 mb-0">04 Days Trip</p>
                                 </div>
                                 <div class="pricing d-flex align-items-center">
-                                    <img src="./Assets/star 1.svg" alt="Star" class="pb-1">
+                                    <img src="./Assets/Extra Icon/star 1.svg" alt="Star" class="pb-1">
                                     <p class="ms-2 mb-0">5.0</p>
                                 </div>
                             </div>
@@ -422,7 +457,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-4"> 
                     <div class="card ">
                         <div class="pic">
-                            <img class="w-100" src="./Assets/Swizarlnd.svg" alt="Card Image">
+                            <img class="w-100" src="./Assets/Carasouls/Swizarlnd.svg" alt="Card Image">
                         </div>
                         <div class="content pt-3">
                             <div class="line1 d-flex justify-content-between align-items-center">
@@ -433,11 +468,11 @@
                             </div>
                             <div class="line2 d-flex justify-content-between align-items-center mt-2">
                                 <div class="d-flex align-items-center">
-                                    <img src="./Assets/Navigation.svg" alt="Location" class="location">
+                                    <img src="./Assets/Extra Icon/Navigation.svg" alt="Location" class="location">
                                     <p class="place ms-2 mb-0">05 Days Trip</p>
                                 </div>
                                 <div class="pricing d-flex align-items-center">
-                                    <img src="./Assets/star 1.svg" alt="Star" class="pb-1">
+                                    <img src="./Assets/Extra Icon/star 1.svg" alt="Star" class="pb-1">
                                     <p class="ms-2 mb-0">4.6</p>
                                 </div>
                             </div>
@@ -449,7 +484,7 @@
                  <div class="col-12 col-sm-6 col-md-4 col-lg-4"> 
                     <div class="card ">
                         <div class="pic">
-                            <img class="w-100" src="./Assets/Srilanka.svg" alt="Card Image">
+                            <img class="w-100" src="./Assets/Carasouls/Srilanka.svg" alt="Card Image">
                         </div>
                         <div class="content pt-3">
                             <div class="line1 d-flex justify-content-between align-items-center">
@@ -460,11 +495,11 @@
                             </div>
                             <div class="line2 d-flex justify-content-between align-items-center mt-2">
                                 <div class="d-flex align-items-center">
-                                    <img src="./Assets/Navigation.svg" alt="Location" class="location">
+                                    <img src="./Assets/Extra Icon/Navigation.svg" alt="Location" class="location">
                                     <p class="place ms-2 mb-0">05 Days Trip</p>
                                 </div>
                                 <div class="pricing d-flex align-items-center">
-                                    <img src="./Assets/star 1.svg" alt="Star" class="pb-1">
+                                    <img src="./Assets/Extra Icon/star 1.svg" alt="Star" class="pb-1">
                                     <p class="ms-2 mb-0">4.7</p>
                                 </div>
                             </div>
@@ -475,6 +510,8 @@
         </div>
       </div>
 
+      <!--3-->
+
       <div class="carousel-item">
         <div class="cardcontainer container">
             <div class="row g-3">
@@ -482,7 +519,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-4"> 
                     <div class="card ">
                         <div class="pic">
-                            <img class="w-100" src="./Assets/Nepal.svg" alt="Card Image">
+                            <img class="w-100" src="./Assets/Carasouls/Nepal.svg" alt="Card Image">
                         </div>
                         <div class="content pt-3">
                             <div class="line1 d-flex justify-content-between align-items-center">
@@ -493,11 +530,11 @@
                             </div>
                             <div class="line2 d-flex justify-content-between align-items-center mt-2">
                                 <div class="d-flex align-items-center">
-                                    <img src="./Assets/Navigation.svg" alt="Location" class="location">
+                                    <img src="./Assets/Extra Icon/Navigation.svg" alt="Location" class="location">
                                     <p class="place ms-2 mb-0">07 Days Trip</p>
                                 </div>
                                 <div class="pricing d-flex align-items-center">
-                                    <img src="./Assets/star 1.svg" alt="Star" class="pb-1">
+                                    <img src="./Assets/Extra Icon/star 1.svg" alt="Star" class="pb-1">
                                     <p class="ms-2 mb-0">5.00</p>
                                 </div>
                             </div>
@@ -509,7 +546,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-4"> 
                     <div class="card ">
                         <div class="pic">
-                            <img class="w-100" src="./Assets/Africa.svg" alt="Card Image">
+                            <img class="w-100" src="./Assets/Carasouls/Africa.svg" alt="Card Image">
                         </div>
                         <div class="content pt-3">
                             <div class="line1 d-flex justify-content-between align-items-center">
@@ -520,11 +557,11 @@
                             </div>
                             <div class="line2 d-flex justify-content-between align-items-center mt-2">
                                 <div class="d-flex align-items-center">
-                                    <img src="./Assets/Navigation.svg" alt="Location" class="location">
+                                    <img src="./Assets/Extra Icon/Navigation.svg" alt="Location" class="location">
                                     <p class="place ms-2 mb-0">05 Days Trip</p>
                                 </div>
                                 <div class="pricing d-flex align-items-center">
-                                    <img src="./Assets/star 1.svg" alt="Star" class="pb-1">
+                                    <img src="./Assets/Extra Icon/star 1.svg" alt="Star" class="pb-1">
                                     <p class="ms-2 mb-0">4.2</p>
                                 </div>
                             </div>
@@ -536,7 +573,7 @@
                  <div class="col-12 col-sm-6 col-md-4 col-lg-4"> 
                     <div class="card ">
                         <div class="pic">
-                            <img class="w-100" src="./Assets/Iceland.svg" alt="Card Image">
+                            <img class="w-100" src="./Assets/Carasouls/Iceland.svg" alt="Card Image">
                         </div>
                         <div class="content pt-3">
                             <div class="line1 d-flex justify-content-between align-items-center">
@@ -547,11 +584,11 @@
                             </div>
                             <div class="line2 d-flex justify-content-between align-items-center mt-2">
                                 <div class="d-flex align-items-center">
-                                    <img src="./Assets/Navigation.svg" alt="Location" class="location">
+                                    <img src="./Assets/Extra Icon/Navigation.svg" alt="Location" class="location">
                                     <p class="place ms-2 mb-0">07 Days Trip</p>
                                 </div>
                                 <div class="pricing d-flex align-items-center">
-                                    <img src="./Assets/star 1.svg" alt="Star" class="pb-1">
+                                    <img src="./Assets/Extra Icon/star 1.svg" alt="Star" class="pb-1">
                                     <p class="ms-2 mb-0">4.6</p>
                                 </div>
                             </div>
@@ -588,18 +625,18 @@
             <div class="d-flex gap-2 mt-4">
                 <!-- Left Arrow Button -->
                 <button class="btn arrow-btn">
-                  <img src="./Assets/left.svg" alt="Left Arrow" class="arrow-img">
+                  <img src="./Assets/Button/left.svg" alt="Left Arrow" class="arrow-img">
                 </button>
                 <!-- Right Arrow Button -->
                 <button class="btn arrow-btn active">
-                  <img src="./Assets/Right.svg" alt="Right Arrow" class="arrow-img">
+                  <img src="./Assets/Button/Right.svg" alt="Right Arrow" class="arrow-img">
                 </button>
               </div>
               
               <!--image section--> 
             </div>
                 <div class="col-md-6">
-                    <img src="./Assets/About.svg" alt="Profile Image" class="img-fluid Aboutimg w-100">
+                    <img src="./Assets/About Section/About.svg" alt="Profile Image" class="img-fluid Aboutimg w-100">
                 </div>
     </div>
 </section>
@@ -625,7 +662,7 @@
             <!--BLOG 1-->
             <div class="col-lg-6 col-md-6 col-12">
                 <div class="custom-card">
-                <img src="./Assets/Blog post 1.jpg" alt="Travel Image" class="card-image">
+                <img src="./Assets/Blog Image/Blog post 1.jpg" alt="Travel Image" class="card-image">
                 <div class="card-content">
                     <h4 class="card-title">The Amazing Difference a Year of Travelling</h4>
                     <p class="card-text">As we cross borders, and oceans, we gain true perspective.</p>
@@ -637,7 +674,7 @@
             <!--BLOG 2-->
             <div class="col-lg-6 col-md-6 col-12">
             <div class="custom-card">
-              <img src="./Assets/Blog post 2.jpg" alt="Travel Image" class="card-image">
+              <img src="./Assets/Blog Image/Blog post 2.jpg" alt="Travel Image" class="card-image">
               <div class="card-content">
                 <h4 class="card-title">Travel far enough, you meet yourself</h4>
                 <p class="card-text">Journey to discover yourself across new adventures</p>
@@ -649,7 +686,7 @@
             <!--BLOG 3-->
             <div class="col-lg-6 col-md-6 col-12">
             <div class="custom-card">
-                    <img src="./Assets/Blog post 3.jpg" alt="Travel Image" class="card-image">
+                    <img src="./Assets/Blog Image/Blog post 3.jpg" alt="Travel Image" class="card-image">
                 <div class="card-content">
                     <h4 class="card-title">How to Save Money While Visiting Africa</h4>
                     <p class="card-text">Explore Africa affordably with these budget-friendly travel tips</p>
@@ -661,7 +698,7 @@
             <!--BLOG 4-->
             <div class="col-lg-6 col-md-6 col-12">
                 <div class="custom-card">
-                        <img src="./Assets/Blog post 4.jpg" alt="Travel Image" class="card-image">
+                        <img src="./Assets/Blog Image/Blog post 4.jpg" alt="Travel Image" class="card-image">
                     <div class="card-content">
                         <h4 class="card-title">Reflections on 5 Months of Travel: Time to Hang</h4>
                         <p class="card-text">Discover the highs and lows of extended global adventures</p>
@@ -696,12 +733,12 @@
         <div class="container"> 
             <div class="row g-3"> 
                 <div class="col-md-3 mb-3">
-                        <img src="./Assets/Footer logo.svg">  
+                        <img src="./Assets/Logo and favicon/Footer logo.svg">  
                         <p class="footerp pt-3">Book your trip in minute, get full Control for much longer.</p> 
                     <div class="social-icons">
-                        <a href="#"><img src="./Assets/Facebook.svg" alt="Facebook"></a> 
-                        <a href="#"><img src="./Assets/Instagram.svg" alt="Instagram"></a> 
-                        <a href="#"><img src="./Assets/Twitter.svg" alt="Twitter"></a>
+                        <a href="#"><img src="./Assets/Footer Icon/Facebook.svg" alt="Facebook"></a> 
+                        <a href="#"><img src="./Assets/Footer Icon/Instagram.svg" alt="Instagram"></a> 
+                        <a href="#"><img src="./Assets/Footer Icon/Twitter.svg" alt="Twitter"></a>
                     </div> 
                 </div>
 

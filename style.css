@@ -19,7 +19,10 @@ body{
 .navbar-nav,.singup{
     font-family: 'poppins';
 }
-
+.modal{
+    font-family: 'poppins';
+    height: 1000px;
+}
 /*Hero Section*/
 
 .hero {
@@ -345,7 +348,7 @@ body{
     padding-bottom: 20px;
 }
 .box1 {
-    background-image: url(./Assets/Elements.svg);
+    background-image: url(./Assets/Newsletter/Elements.svg);
     margin-top: 70px;
     height: 400px;
     border-radius: 15px;
