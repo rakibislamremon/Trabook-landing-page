@@ -73,7 +73,7 @@ body{
     border-radius: 6px; 
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
 } 
-.search-bar .btn { 
+.search-bar .btn{ 
     background-color:  #FD8D3A; 
     color: #fff; 
     font-weight: 500; 
@@ -89,7 +89,7 @@ body{
     color: #FD8D3A;
 }
 
-.btn-primary {
+.btn-primary{
     --bs-btn-color: #fff;
     --bs-btn-bg: #FD8D3A;
     --bs-btn-border-color: #FD8D3A;
@@ -209,6 +209,11 @@ body{
 }
 
 /*carasouls*/
+.price{
+    font-weight: bold;
+    color: #FD8D3A;
+    font-size: large;
+}
 
 .carousel-control-prev,
 .carousel-control-next {
