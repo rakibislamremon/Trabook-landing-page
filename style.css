@@ -494,3 +494,61 @@ body{
         justify-content: center;
     }
 }
+
+
+/* Login and singup page css */
+.welcome,.loginpage {
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+.loginbutton {
+    background-color: #FD8D3A;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.loginbutton:hover {
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+}
+.box2 {
+    border: 2px solid #FD8D3A;
+    border-radius: 5px;
+    padding: 10px;
+}
+.forgetpass {
+    font-size: 0.9rem;
+    color: #FD8D3A;
+    text-decoration: none;
+}
+.forgetpass:hover {
+    text-decoration: underline;
+}
+
+/*loginpage responsive*/
+@media (max-width: 768px) {
+    .welcome {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .container {
+        padding: 15px;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    .loginbutton {
+        width: 100%;
+    }
+}
+@media (max-width: 576px) {
+    .welcome {
+        font-size: 1.5rem;
+    }
+    .loginpage {
+        padding: 10px;
+    }
+}
