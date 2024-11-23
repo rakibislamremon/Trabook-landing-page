@@ -497,6 +497,7 @@ body{
 
 
 /* Login and singup page css */
+
 .welcome,.loginpage {
     font-family: 'Poppins';
     font-weight: 600;
@@ -552,3 +553,14 @@ body{
         padding: 10px;
     }
 }
+
+/*forget*/
+.hero{
+    font-family: 'poppins';
+}
+.forgetimg{
+    width:700px;
+    height: 400px;
+}
+
+/*About page*/
