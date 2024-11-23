@@ -26,10 +26,7 @@ body{
 .navbar-nav a:hover{
     color: #FD8D3A;
 }
-.modal{
-    font-family: 'poppins';
-    height: 1000px;
-}
+
 /*Hero Section*/
 
 .hero {
@@ -555,8 +552,11 @@ body{
 }
 
 /*forget*/
-.hero{
+.hero1{
     font-family: 'poppins';
+}
+.forgethead{
+    font-weight: 600;
 }
 .forgetimg{
     width:700px;
@@ -564,3 +564,36 @@ body{
 }
 
 /*About page*/
+.aboutusheading h1, .h1{
+    font-weight: 600;
+}
+.aboutimage{
+    margin-left: 0;
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 767px) {
+    .aboutimage {
+        margin-left: 0;
+        display: block;
+        margin-top: 20px;
+    }
+    .aboutusheading{
+        text-align: center;
+    }
+}
+
+.Team-member {
+    background-color:  #FEFCFB;
+    font-family: 'poppins';
+}
+.Team-member-text{
+    font-weight: 600;
+}
+.teamheading{
+    color: #FD8D3A;
+}
+.jobicon{
+    height: 24px;
+    width: 24px;
+}
