@@ -258,10 +258,10 @@ body{
     z-index: 2; 
 }
 .carousel-control-prev {
-    left: 15px; 
+    left: -30px; 
 }
 .carousel-control-next {
-    right: 15px; 
+    right: -30px; 
 }
 
 /*About */
@@ -551,7 +551,7 @@ body{
     }
 }
 
-/*forget*/
+/*forget Page*/
 .hero1{
     font-family: 'poppins';
 }
@@ -564,6 +564,7 @@ body{
 }
 
 /*About page*/
+
 .aboutusheading h1, .h1{
     font-weight: 600;
 }
@@ -583,17 +584,42 @@ body{
     }
 }
 
-.Team-member {
-    background-color:  #FEFCFB;
-    font-family: 'poppins';
-}
+/*About team */
+
 .Team-member-text{
     font-weight: 600;
 }
 .teamheading{
     color: #FD8D3A;
 }
-.jobicon{
-    height: 24px;
-    width: 24px;
+.teampara{
+    font-family: 'poppins';
+}
+.Team-member,.team-section {
+    background-color:  #FEFCFB;
+    font-family: 'volkhov';
+}
+.membername{
+    font-family: 'poppins';
+    font-weight: 600;
+    color: #FD8D3A;
+}
+.memberjob{
+    font-family: 'poppins';
+}
+.icon-img {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+@media (max-width: 768px) {
+    .team-card img {
+        max-width: 80px;
+        max-height: 80px;
+    }
+}
+/* vision and mission*/
+.vision,.mission{
+    font-family: 'poppins';
+    margin: 10px;
 }
