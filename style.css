@@ -625,3 +625,19 @@ body{
 }
 
 /* Destination page */
+
+
+/*Blog Details Section*/
+.blogd{
+    height: 500px;
+    border-radius: 30px;
+}
+.blogd_h,.blogd_p{
+    font-family: "poppins";
+}
+.Blogspan{
+    font-weight: bold;
+}
+.blogd_h{
+    font-weight: bold;
+}
