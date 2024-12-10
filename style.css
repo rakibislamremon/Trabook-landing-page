@@ -632,7 +632,7 @@ body{
     height: 500px;
     border-radius: 30px;
 }
-.blogd_h,.blogd_p{
+.blogd_h,.blogd_p,.unorderlist{
     font-family: "poppins";
 }
 .Blogspan{
