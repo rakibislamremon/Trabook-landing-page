@@ -193,7 +193,7 @@ body{
     background-color:  #FEFCFB;
     padding-bottom: 20px;
 }
-.content{
+.content,.desp{
     font-family: 'poppins';
 }
 .card {
