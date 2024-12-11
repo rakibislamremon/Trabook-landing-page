@@ -641,3 +641,22 @@ body{
 .blogd_h{
     font-weight: bold;
 }
+/*tour Details page */
+.carousel-img {
+    height: 400px;
+    object-fit: cover;
+}
+.progress-bar {
+    background-color: #28a745;
+}
+.map-container {
+    height: 300px;
+    width: 100%;
+}
+.back-btn {
+    margin: 20px 0;
+}
+.short-description {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
