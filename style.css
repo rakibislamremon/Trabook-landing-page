@@ -646,17 +646,47 @@ body{
     height: 400px;
     object-fit: cover;
 }
-.progress-bar {
-    background-color: #28a745;
-}
-.map-container {
-    height: 300px;
-    width: 100%;
-}
 .back-btn {
     margin: 20px 0;
 }
 .short-description {
+    font-family: "poppins";
     font-size: 1.1rem;
     margin-bottom: 15px;
+}
+.map-container {
+    height: 400px;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.card-title {
+    font-family: "poppins";
+    color: #FD8D3A;
+    font-weight: bold;
+}
+.list-group-item {
+    font-family: "poppins";
+    background-color: #f9f9f9;
+    border-left: 4px solid #FD8D3A;
+}
+.review-card {
+    font-family: "poppins";
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.review-card p {
+    margin-bottom: 0;
+}
+.Sweetreview{
+    font-family: "poppins";
+    color: #FD8D3A;
 }
