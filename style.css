@@ -690,3 +690,18 @@ body{
     font-family: "poppins";
     color: #FD8D3A;
 }
+
+/*Tour details page 2*/
+.londondetails{
+    font-family: "poppins";
+}
+.cardin{
+    background-color: #eaffe6;
+    border-radius: 8px;
+    padding: 25px;
+}
+.cardex{
+    background-color: #ffe6e6;
+    border-radius: 8px;
+    padding: 25px;
+}
