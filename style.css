@@ -696,11 +696,13 @@ body{
     font-family: "poppins";
 }
 .cardin{
+    font-family: "poppins";
     background-color: #eaffe6;
     border-radius: 8px;
     padding: 25px;
 }
 .cardex{
+    font-family: "poppins";
     background-color: #ffe6e6;
     border-radius: 8px;
     padding: 25px;
