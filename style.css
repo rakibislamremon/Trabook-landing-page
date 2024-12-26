@@ -474,6 +474,10 @@ body{
 .terms{
     color: #FD8D3A;
 }
+.social-icons .social-icon {
+    width: 24px;
+    height: 24;
+}
 
 @media (max-width: 768px) {
     .footer .row {
@@ -490,8 +494,11 @@ body{
     .social-icons {
         justify-content: center;
     }
+    .footer-logo {
+        height: 100px;
+        width: 300px;
+    }
 }
-
 
 /* Login and singup page css */
 
